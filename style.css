@@ -1,10 +1,10 @@
 /* Modern Color Palette */
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --primary-color: rgba(16, 81, 80, 0.886);
+    --secondary-color: #95320b79;
     --accent-color: #2ecc71;
-    --text-color: #333;
-    --background-color: #f4f6f7;
+    --text-color: #5e5c5c;
+    --background-color: #000000;
   }
   
   /* Reset and Base Styles */
@@ -47,7 +47,7 @@
   nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    color: rgb(247, 241, 241);
   }
   
   nav ul {
@@ -60,7 +60,7 @@
   }
   
   nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -71,7 +71,7 @@
   
   /* Hero Section */
   .hero {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #aba5a5 0%, #ffffff 100%);
     padding: 80px 0;
     min-height: 90vh;
     display: flex;
@@ -85,10 +85,10 @@
   }
   
   .profile-image img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 40%;
     border: 5px solid var(--secondary-color);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
@@ -140,7 +140,7 @@
   
   /* Skills Section */
   .skills {
-    background-color: white;
+    background-color: rgb(194, 186, 186);
     padding: 80px 0;
   }
   
@@ -158,7 +158,7 @@
   }
   
   .skill-item {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
@@ -183,7 +183,7 @@
   
   /* Education Section */
   .education {
-    background-color: #f4f6f7;
+    background-color: #d2c9c9;
     padding: 80px 0;
   }
   
@@ -285,7 +285,7 @@
 /* Beautiful Contact Section */
 .contact-section {
   padding: 100px 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e6f2ff 100%);
+  background: linear-gradient(135deg, #ddd3d3 0%, #e6f2ff 100%);
   position: relative;
   overflow: hidden;
 }
@@ -323,7 +323,7 @@
 }
 
 .section-header p {
-  color: #666;
+  color: #7d7474;
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto;
@@ -338,7 +338,7 @@
 }
 
 .contact-card {
-  background: white;
+  background: rgb(193, 173, 173);
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
@@ -383,7 +383,7 @@
 .detail-item i {
   width: 40px;
   height: 40px;
-  background: rgba(52, 152, 219, 0.1);
+  background: rgba(202, 201, 194, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -418,7 +418,7 @@
 }
 
 .contact-form {
-  background: white;
+  background: rgb(139, 117, 117);
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
